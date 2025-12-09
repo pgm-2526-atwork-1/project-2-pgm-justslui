@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Harmony Afterwork",
+    "subtitle": "Après-ski edition",
+    "date_day": "Vrijdag",
+    "date_day_number": "2",
+    "date_month": "Feb",
+    "time_start": "17:00",
+    "time_end": "00:00",
+    "link_title": "View on facebook",
+    "link_url": "#!",
+    "description": "Harmony, an afterwork in Antwerp's cosiest neighbourhood. This edition takes place @ De Koninck! Come along and enjoy some drinks, food & music."
+  },
+  {
+    "title": "Wild Jo's market",
+    "subtitle": "Craft. art. food. drinks. live music. design & more",
+    "date_day": "Zaterdag",
+    "date_day_number": "8",
+    "date_month": "Feb",
+    "time_start": "10:00",
+    "time_end": "20:00",
+    "link_title": "Event website",
+    "link_url": "#!",
+    "description": "Wild Jo's Market is hosted at WINTAR on 8 february, a unique setting in Antwerp that offers an Indoor & Outdoor area."
+  },
+  {
+    "title": "SILENT DISCO",
+    "subtitle": "Ssssst… hier rijpt ons Bolleke.",
+    "date_day": "Donderdag",
+    "date_day_number": "28",
+    "date_month": "Feb",
+    "time_start": "20:00",
+    "time_end": "00:00",
+    "link_title": "View on facebook",
+    "link_url": "#!",
+    "description": "Put on your headphones and dance the night away at De Koninck's Silent Disco! Choose your channel, move to your favorite beats, and enjoy our Bolleke in a unique silent party atmosphere. The only sound you'll hear is the music in your ears and the laughter around you."
+  },
+  {
+    "title": "Brewery Tour & Tasting",
+    "subtitle": "Discover the art of brewing",
+    "date_day": "Zaterdag",
+    "date_day_number": "8",
+    "date_month": "Mrt",
+    "time_start": "14:00",
+    "time_end": "16:00",
+    "link_title": "Book your tour",
+    "link_url": "#!",
+    "description": "Join us for an exclusive brewery tour at De Koninck. Learn about our brewing process and enjoy a guided tasting of our finest beers."
+  },
+  {
+    "title": "Jazz Night",
+    "subtitle": "Live music & craft beer",
+    "date_day": "Vrijdag",
+    "date_day_number": "21",
+    "date_month": "Mrt",
+    "time_start": "19:00",
+    "time_end": "23:00",
+    "link_title": "View on facebook",
+    "link_url": "#!",
+    "description": "Experience an evening of smooth jazz melodies paired with our signature Bolleke. Live performances in the heart of Antwerp."
+  },
+  {
+    "title": "Spring Market",
+    "subtitle": "Local vendors & food trucks",
+    "date_day": "Zondag",
+    "date_day_number": "30",
+    "date_month": "Mrt",
+    "time_start": "11:00",
+    "time_end": "18:00",
+    "link_title": "Event website",
+    "link_url": "#!",
+    "description": "Celebrate spring at De Koninck with local artisans, food vendors, and live entertainment. A perfect Sunday afternoon in Antwerp."
+  },
+  {
+    "title": "Harmony Afterwork",
+    "subtitle": "Spring edition",
+    "date_day": "Vrijdag",
+    "date_day_number": "4",
+    "date_month": "Apr",
+    "time_start": "17:00",
+    "time_end": "00:00",
+    "link_title": "View on facebook",
+    "link_url": "#!",
+    "description": "Harmony, an afterwork in Antwerp's cosiest neighbourhood. This spring edition takes place @ De Koninck! Come along and enjoy some drinks, food & music."
+  },
+  {
+    "title": "Beer & Food Pairing",
+    "subtitle": "Culinary experience",
+    "date_day": "Zaterdag",
+    "date_day_number": "19",
+    "date_month": "Apr",
+    "time_start": "18:00",
+    "time_end": "21:00",
+    "link_title": "Reserve your spot",
+    "link_url": "#!",
+    "description": "Join our expert brewers and chefs for an exclusive beer and food pairing evening. Discover how our beers complement different flavors."
+  }
+]
