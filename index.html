@@ -26,12 +26,14 @@ Nice-to-have:
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex,nofollow" />
-    <link rel="icon" type="image/png" href="static/images/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="static/images/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="static/images/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png" />
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="icon" type="image/png" href="static/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="static/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="static/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="De Koninck" />
-    <link rel="manifest" href="static/images/favicon/site.webmanifest" />
+    <link rel="manifest" href="static/favicon/web-app-manifest-512x512.png" />
     <title>De Koninck - Bieren</title>
   </head>
   <body>
@@ -93,5 +95,43 @@ Nice-to-have:
         </ul>
       </nav>
     </header>
+
+    <div class="navigation_container">
+      <div class="sticky_navigation">
+        <a class="facebook" href="https://www.facebook.com/BrouwerijDeKoninck/" target="_blank"><img src="static/images/img_header/facebook.png" alt="FB"></a>
+        <a href="http://www.instagram.com/dekoninck/" target="_blank"><img src="static/images/img_header/instagram.png" alt=""></a>
+      </div>
+      <a href="https://www.dekoninck.be/nl/tickets" target="_blank"></a>
+    </div>
+
+    <div class="sticky_tickets">
+      <p class="text_tickets">BESTEL JE TICKETS ONLINE</p>
+      <a class="circle_tickets" href="#" target="_blank"><img src="static/images/img_header/Group5.svg" alt="Tickets"></a>
+    </div>
+
+    <div class="header_video">
+      <img class="header_hand" src="static/images/img_header/Group13.svg">
+      <video class="video" id="video" autoplay muted loop>
+        <source src="static/videos/dekoninck.mp4" type="video/mp4">
+      </video>
+
+      <div class="header_content">
+        <div class="header_beers">
+          <a href="bieren.html">
+            <p class="header_text_small">ontdek</p>
+            <p class="header_text_big">onze bieren</p>
+          </a>
+        </div>
+
+        <div class="header_visit">
+          <a href="#">
+            <p class="header_text_small">BEZOEK & BELEEF DE</p>
+            <p class="header_text_big">Stadsbrouwerij</p>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
   </body>
 </html>
