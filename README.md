@@ -1,11 +1,12 @@
 To do's:
-- Bieren overzicht pagina
-- Bier detail pagina: Bolleke
+- Homepagina ✔️
+- Bieren overzicht pagina ✔️
+- Bier detail pagina: Bolleke ✔️
 - Kalender pagina
 - De pagina is responsive
 - Volg het design (kleuren, stijl, layout) zo exact mogelijk
-- Gebruik de correcte robots.txt en meta tags
-- De pagina is online te bekijken op github pages
+- Gebruik de correcte robots.txt en meta tags ✔️
+- De pagina is online te bekijken op github pages ✔️
 - video background die automatisch afspeelt
 - Werkende hover states op de navigatie met subnavigatie
 - Een werkend mobiel menu
