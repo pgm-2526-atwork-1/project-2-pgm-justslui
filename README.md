@@ -1,5 +1,4 @@
 To do's:
-- Homepagina
 - Bieren overzicht pagina
 - Bier detail pagina: Bolleke
 - Kalender pagina
