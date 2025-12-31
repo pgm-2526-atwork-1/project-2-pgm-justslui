@@ -10,9 +10,211 @@
     --background_white: #F5F4F0;
     --background_blue: #078BC3;
     
-    --border_red: #BF1F17;
-
-
-    
-    
+    --border_red: #BF1F17;    
 }
+
+@font-face {
+    font-family: "bebasNeue";
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);    
+}
+
+@font-face {
+    font-family: "cabin";
+    src: url(../fonts/Cabin/static/Cabin-Regular.ttf);
+}
+
+@font-face {
+    font-family: "heptaSlab";
+    src: url(../fonts/Hepta_Slab/static/HeptaSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: "permanentMarker";
+    src: url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+body {
+    font-family: "bebasNeue";
+    margin: 0;
+    padding: 0;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.logo_top {
+    background: var(--background_white);    
+    padding: 1.5rem 2rem;
+    margin: 0.91rem 0 0.91rem 7.5rem;
+    text-align: center;
+    max-height: 8.28rem;
+    /* text-align: left; */
+    display: inline-block;
+
+    & img {
+        height: 4rem;
+        margin: 0 auto;
+        /* align-items: center; */
+        display: block;
+    }
+
+    & p {
+        color: var(--sub_text_red);
+        font-size: 0.54rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "heptaSlab";
+        margin-top: 0.5rem;
+    }
+}
+
+.topbar {
+    color: var(--text_white);
+    font-size: 0.8125rem;
+    padding: 1.28rem 0 0 8.25rem;
+    font-weight: 700;
+    }
+
+.topbar p  {
+    font-family: "cabin";
+    display: inline-block;
+}
+
+.topbar a {
+    text-decoration: underline;
+    padding-left: 0.5rem;
+    color: var(--text_white);
+
+    &:visited {
+        color: var(--text_white);
+        text-decoration: underline;
+    }
+}
+
+.head-nav-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.dropdown {
+    /* position: relative;
+    display: inline-block; */
+    margin: 0.91rem 0;
+    flex: 1;
+}
+
+.navigation {
+    /* overflow: hidden;  */
+    position: relative;
+    width: 100%;  
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* .navigation .navigation_block {
+    background-color: var(--background_white);
+    padding: 1.5rem 4.5rem;
+    font-size: 1rem;
+    overflow: hidden;
+    border: none;
+    text-decoration: none;
+    outline: none;    
+    position: relative;
+    display: inline-block;
+
+} */
+
+.navigation_block {
+    position: relative;
+    background-color: var(--background_white);
+    height: 8.278rem;
+    border: 0.5rem solid transparent;
+}
+
+.navigation_block > a {
+    display: block;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    color: var(--text_black);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.navigation_block:hover > a {
+    color: var(--text_red);
+}
+
+/* .navigation:hover .navigation_block {
+    background-color: var(--background_white);
+} */
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0;
+    margin-top: -3.5rem;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: var(--background_white);
+
+    white-space: nowrap;
+    gap: 2rem;
+    /* min-width: 200px; */
+    /* width: 100%; */
+    max-height: 8rem;
+    z-index: 1000;
+
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+/* .submenu a:hover {
+    background-color: var(--background_white);
+    color: var(--text_red);
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .submenu li {
+    flex: none;
+    padding: 0 2rem;
+    white-space: nowrap;
+} */
+
+.submenu li a {
+    padding: 0.5rem 1rem;
+    /* display: block; */
+    text-decoration: none;
+    color: var(--text_black);
+    font-size: 0.85rem;
+}
+
+.submenu li a:hover {
+    color: var(--text_red);
+}
+
+.navigation_block:hover > .submenu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width: 40rem;
+    left: 0;
+
+}
+
+/* .header-bg {
+    min-height: 200px;
+    background: linear-gradient(135deg, #555 0%, #888 100%);
+} */
