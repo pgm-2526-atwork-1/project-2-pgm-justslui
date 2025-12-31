@@ -92,7 +92,7 @@ body {
     }
 }
 
-.head-nav-container {
+.navigation-container {
     display: flex;
     align-items: flex-start;
     gap: 0;
@@ -112,10 +112,13 @@ body {
     margin: 0;
 }
 
+.tickets_style {
+    background-color: var(--background_red);
+}
+
 .navigation_block {
     background-color: var(--background_white);
     height: 8.278rem;
-    border: solid transparent 0.5rem;
 }
 
 .navigation_block > a {
@@ -124,9 +127,9 @@ body {
     text-decoration: none;
     color: var(--text_black);
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 0.9rem;
-    letter-spacing: 0.5px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.1324rem;
 }
 
 .navigation_block:hover > a {
@@ -155,6 +158,8 @@ body {
     text-decoration: none;
     color: var(--text_black);
     font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0.0844rem;
 }
 
 .submenu li a:hover {
