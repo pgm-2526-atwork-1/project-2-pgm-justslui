@@ -39,24 +39,41 @@ body {
     padding: 0;
 }
 
-.video {
-    position: absolute;
-    top: 0;
-    z-index: -1;
+main {
+    width: 100%;
 }
 
+.video {
+    position: absolute;
+    width: 150%;
+    top: 0;
+    z-index: -1;
+    margin-left: 1rem;
+}
+
+/* _____________LOGO TOP_____________ */
+
 .logo_top {
-    background: var(--background_white);    
-    padding: 1.5rem 2rem;
-    margin: 0.91rem 0 0.91rem 7.5rem;
+    background-color: var(--background_white);
+    background-image: url("../images/img_header/Logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: calc(100% - 3rem);
+    
+    width: 16.25rem;
+    height: 8.28rem;
+
+    margin: 0.91rem 0 0.91rem 9rem;
     text-align: center;
-    max-height: 8.28rem;
     display: inline-block;
 
-    & img {
-        height: 4rem;
-        margin: 0 auto;
-        display: block;
+    & a {
+        color: transparent;
+        margin-top: 3rem;
+        margin-left: -6rem;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 0;
     }
 
     & p {
@@ -65,9 +82,11 @@ body {
         text-align: center;
         text-transform: uppercase;
         font-family: "heptaSlab";
-        margin-top: 0.5rem;
+        margin-top: 6.5rem;
     }
 }
+
+/* _____________TEXT ABOVE NAVIGATION_____________ */
 
 .topbar {
     color: var(--text_white);
@@ -91,6 +110,8 @@ body {
         text-decoration: underline;
     }
 }
+
+/* _____________NAVIGATION_____________ */
 
 .navigation-container {
     display: flex;
@@ -175,3 +196,233 @@ body {
     left: 0;
 
 }
+
+/* _____________STICKY TICKET BUTTON_____________ */
+
+.sticky_tickets {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.circle_tickets {
+    background-color: var(--background_red);
+    border-radius: 50%;
+    padding: 0.5rem;
+    z-index: 1;
+}
+
+.text_tickets {
+    background-color: var(--background_white);
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 0.8438rem;
+    letter-spacing: 0.2rem;
+    margin-right: -2rem;
+    z-index: 0;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sticky_tickets:hover .text_tickets {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* _____________SOCIALS BUTTONS_____________ */
+
+.socials_homepage {
+    position: relative;
+    left: 2rem;
+    top: 20rem;
+    z-index: 1;
+    display: block;
+}
+
+/* _____________HAND HOMEPAGE_____________ */
+
+.header_hand {
+    background-image: url("../images/img_header/Group13.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 4.236rem;
+    height: 9rem;
+
+    margin: auto;
+    margin-top: 9.38rem;
+}
+
+.header_image_hand {
+    display: grid;
+    grid-template-columns: auto 4.5rem auto;
+    align-items: center;
+    gap: 4rem;
+
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.header_block {
+    text-align: center;
+    text-decoration: none;
+    color: var(--text_white);
+    text-transform: uppercase;
+    margin-top: 11rem;
+}
+
+.header_text_small {
+    font-size: 1rem;
+    letter-spacing: 0.2222rem;
+    display: block;
+}
+
+.header_text_big {
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 0.3889rem;
+    display: block;
+}
+
+.header_text_big, .header_text_small {
+    color: var(--text_white);
+    -webkit-text-stroke: 1px var(--text_black);
+}
+
+
+/* _____________BEERS HOMEPAGE_____________ */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: auto; */
+    margin-top: 23rem;
+    width: 81rem;
+    /* padding: 3rem; */
+    background-color: var(--background_white);
+
+}
+
+.beers_homepage {
+    display: grid;
+    justify-items: center;
+    background-color: var(--background_white);
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+    overflow: visible;
+
+    & a {
+        color: var(--text_red);
+        text-decoration: none;
+        letter-spacing: 0.1544rem;
+        font-size: 1.3125rem;
+    }
+
+    & .underline {
+        src: url(../images/img_main/line5.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+        z-index: 2;
+    }
+}
+
+.letter_t {
+    background-image: url(../images/img_main/T.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 3rem;
+
+    width: 35rem;
+    height: 28rem;
+    z-index: 1;
+
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tripel_danvers {
+    position: relative;
+    z-index: 2;
+    width: 12.4rem;
+    height: auto;
+    margin: auto;
+    margin-top: -3rem;
+}
+
+
+/* _____________DISCOVER BEERS CITYBREWERY_____________ */
+
+/* _____________HARMONY AFTERWORK_____________ */
+
+.feed_items {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.harmony_afterwork {
+    background-image: url(../images/img_main/Date.png);
+    background-color: var(--background_red);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: calc(100% - 18rem);
+
+
+    width: 22.5rem;
+    height: 22.4375rem;
+
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/* _____________VELODOME_____________ */
+
+.velodome {
+    background-image: url(../images/img_main/Bike.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    width: 22.5rem;
+    height: 22.4375rem;
+
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/* _____________WILD JO'S MARKET_____________ */
+
+.wildjos_market {
+    background-image: url(../images/img_main/koninck_market.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 150%;
+
+    width: 45rem;
+    height: 45rem;
+
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* _____________SILENT DISCO_____________ */
+/* _____________INTERACTIVE TOUR_____________ */
+/* _____________FRESH TAPPED_____________ */
+/* _____________YOUR EVENT_____________ */
+/* _____________FOOTER_____________ */
